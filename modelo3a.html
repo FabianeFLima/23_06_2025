@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let quantidade = 0;
+document.write("Sitema de Cadastro");
+
+
+let resp=prompt("Deseja cadastrar Cliente? S ou N");
+while (resp=="S"|| resp=="s"){
+    let nome=prompt("Digite Nome do Cliente: ")
+quantidade++;
+    resp=prompt("Deseja continuar no Cadastro? Digie S ou N");
+    
+
+}
+document.write("<br><br>Total de cadastrados = " +quantidade);
+
+document.write("<br><br>Cadastro Finalizado!");
+    </script>
+</body>
+</html>
